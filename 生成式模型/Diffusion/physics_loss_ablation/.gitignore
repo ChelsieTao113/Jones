@@ -1,0 +1,4 @@
+# Only the new prediction-type experiment's local recovery weights.
+/runs/prediction_type_ablation/**/*.pt
+/runs/prediction_type_ablation/**/*.tmp
+/scripts/__pycache__/

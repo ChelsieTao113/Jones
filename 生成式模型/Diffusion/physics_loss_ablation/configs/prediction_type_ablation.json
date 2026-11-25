@@ -1,0 +1,12 @@
+{
+  "task_id": "train_000252",
+  "train_seeds": [20261124, 20261125, 20261126],
+  "generation_seeds": [20261201, 20261202, 20261203, 20261204, 20261205, 20261206],
+  "diagnostic_times": [55, 188, 495, 802, 935, 990, 999],
+  "diagnostic_noise_seeds": [819990, 819991, 819992, 819993],
+  "trace_project_indices": [0, 1, 2, 4, 9, 19, 39, 59, 79, 89, 94, 99],
+  "updates": 2000,
+  "evaluation_steps": [500, 1000, 1500, 2000],
+  "gpu_wall_seconds_limit": 14400,
+  "raw_near_zero_threshold": 0.01
+}

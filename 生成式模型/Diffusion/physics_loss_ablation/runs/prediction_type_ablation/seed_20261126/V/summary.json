@@ -1,0 +1,15 @@
+{
+  "seed": 20261126,
+  "branch": "V",
+  "updates": 2000,
+  "elapsed_seconds_this_process": 787.8280000000377,
+  "initial": {
+    "model": "3248fd05a267b099c01e6c64c039f5f5a50740344c09e708a0a92226d447cfec",
+    "condition": "ba1f4c5ed386a03c0596f9bca4eedd4303fe01332c103781e20be07b4eabcb7e",
+    "parameters_unet": 3925158,
+    "parameters_condition": 26368
+  },
+  "final_checkpoint": "D:\\科研\\超表面电磁算法\\Jones\\生成式模型\\Diffusion\\physics_loss_ablation\\runs\\prediction_type_ablation\\seed_20261126\\V\\final.pt",
+  "train_t_sha256": "e0fd673b75133041841e020062646552c608c1315352f76733a83afc1db12954",
+  "train_noise_digest_sha256": "7e764662e1ba9d9a5fe02caa027949d077e38c45d51a6ebf9266b2ecf9038b22"
+}

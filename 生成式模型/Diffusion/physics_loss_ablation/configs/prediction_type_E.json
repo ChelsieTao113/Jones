@@ -1,0 +1,135 @@
+{
+  "branch": "E",
+  "prediction_type": "epsilon",
+  "base_config_sha256": "4b51cdcec0eae0250dc219d812c776116604fd54e36558877f86590c6ce2f47a",
+  "ablation_config_sha256": "f060c82b64f29ecd8bc526143533f59780fb0e181b959d6dba73b2a0203aadb3",
+  "effective_config": {
+    "seed": 20261123,
+    "model_id": "symmetric_unitary_analyzer_fourier_v1",
+    "dataset_root": "../../Training_Set",
+    "sample_count": 16,
+    "tiny_count": 8,
+    "target_scale": 1.2,
+    "model": {
+      "sample_size": 128,
+      "in_channels": 6,
+      "out_channels": 6,
+      "block_out_channels": [
+        32,
+        64,
+        128
+      ],
+      "layers_per_block": 1,
+      "norm_num_groups": 8,
+      "cross_attention_dim": 128,
+      "down_block_types": [
+        "DownBlock2D",
+        "DownBlock2D",
+        "CrossAttnDownBlock2D"
+      ],
+      "up_block_types": [
+        "CrossAttnUpBlock2D",
+        "UpBlock2D",
+        "UpBlock2D"
+      ],
+      "only_cross_attention": [
+        false,
+        false,
+        true
+      ],
+      "mid_block_only_cross_attention": true
+    },
+    "diffusion": {
+      "num_train_timesteps": 1000,
+      "beta_schedule": "squaredcos_cap_v2",
+      "prediction_type": "epsilon",
+      "clip_sample": false,
+      "inference_steps": 100,
+      "eta": 0.0
+    },
+    "optimizer": {
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "grad_clip": 1.0,
+      "effective_batch": 4
+    },
+    "budget": {
+      "wall_seconds": 10800,
+      "single_max_updates": 1000,
+      "eight_max_updates": 5000,
+      "eval_every": 500,
+      "final_seeds": [
+        20261123,
+        20261124,
+        20261125
+      ]
+    },
+    "quality": {
+      "min_pcc": 0.9,
+      "max_e_abs": 0.1,
+      "max_eta_relative_error": 0.2,
+      "max_black_leakage": 0.15,
+      "physical_tolerance": 0.0001
+    }
+  },
+  "training_scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "beta_schedule": "squaredcos_cap_v2",
+    "trained_betas": null,
+    "variance_type": "fixed_small",
+    "clip_sample": false,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "leading",
+    "steps_offset": 0,
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "thresholding",
+      "beta_end",
+      "variance_type",
+      "timestep_spacing",
+      "dynamic_thresholding_ratio",
+      "trained_betas",
+      "beta_start",
+      "sample_max_value",
+      "clip_sample_range",
+      "steps_offset",
+      "rescale_betas_zero_snr"
+    ]
+  },
+  "inference_scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "beta_schedule": "squaredcos_cap_v2",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": true,
+    "steps_offset": 0,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "leading",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "thresholding",
+      "beta_end",
+      "set_alpha_to_one",
+      "timestep_spacing",
+      "dynamic_thresholding_ratio",
+      "trained_betas",
+      "beta_start",
+      "sample_max_value",
+      "clip_sample_range",
+      "steps_offset",
+      "rescale_betas_zero_snr"
+    ]
+  }
+}

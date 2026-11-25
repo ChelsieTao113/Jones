@@ -1,0 +1,258 @@
+{
+  "total_bytes_excluding_this_manifest": 299649295,
+  "file_count": 63,
+  "files": [
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\E\\evaluation.csv",
+      "bytes": 21269
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\E\\final.pt",
+      "bytes": 47779415
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\E\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\E\\summary.json",
+      "bytes": 742
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\E\\train_trace.json",
+      "bytes": 600008
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\V\\evaluation.csv",
+      "bytes": 21931
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\V\\final.pt",
+      "bytes": 47779415
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\V\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\V\\summary.json",
+      "bytes": 740
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261124\\V\\train_trace.json",
+      "bytes": 599436
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\E\\evaluation.csv",
+      "bytes": 21400
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\E\\final.pt",
+      "bytes": 47779351
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\E\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\E\\summary.json",
+      "bytes": 741
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\E\\train_trace.json",
+      "bytes": 600102
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\V\\evaluation.csv",
+      "bytes": 21940
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\V\\final.pt",
+      "bytes": 47779351
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\V\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\V\\summary.json",
+      "bytes": 741
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261125\\V\\train_trace.json",
+      "bytes": 599454
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\E\\evaluation.csv",
+      "bytes": 21468
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\E\\final.pt",
+      "bytes": 47779351
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\E\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\E\\summary.json",
+      "bytes": 741
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\E\\train_trace.json",
+      "bytes": 600018
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\V\\evaluation.csv",
+      "bytes": 21911
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\V\\final.pt",
+      "bytes": 47779351
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\V\\initial.json",
+      "bytes": 232
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\V\\summary.json",
+      "bytes": 741
+    },
+    {
+      "path": "runs\\prediction_type_ablation\\seed_20261126\\V\\train_trace.json",
+      "bytes": 599248
+    },
+    {
+      "path": "results\\prediction_type_ablation\\epsilon_regression.json",
+      "bytes": 741
+    },
+    {
+      "path": "results\\prediction_type_ablation\\formula.csv",
+      "bytes": 2278
+    },
+    {
+      "path": "results\\prediction_type_ablation\\formula_summary.json",
+      "bytes": 42
+    },
+    {
+      "path": "results\\prediction_type_ablation\\scheduler_comparison.json",
+      "bytes": 1294
+    },
+    {
+      "path": "results\\prediction_type_ablation\\smoke.json",
+      "bytes": 7654
+    },
+    {
+      "path": "results\\prediction_type_ablation\\source_manifest.json",
+      "bytes": 2759
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261124\\noise_levels.csv",
+      "bytes": 87825
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261124\\paired_channels.csv",
+      "bytes": 17379
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261124\\sampling_trajectory.csv",
+      "bytes": 423238
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261124\\summary.json",
+      "bytes": 7305
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261125\\noise_levels.csv",
+      "bytes": 87721
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261125\\paired_channels.csv",
+      "bytes": 17493
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261125\\sampling_trajectory.csv",
+      "bytes": 423009
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261125\\summary.json",
+      "bytes": 7301
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261126\\noise_levels.csv",
+      "bytes": 87836
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261126\\paired_channels.csv",
+      "bytes": 17525
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261126\\sampling_trajectory.csv",
+      "bytes": 423739
+    },
+    {
+      "path": "results\\prediction_type_ablation\\seed_20261126\\summary.json",
+      "bytes": 7321
+    },
+    {
+      "path": "figures\\prediction_type_ablation\\contact_absolute.png",
+      "bytes": 2446990
+    },
+    {
+      "path": "figures\\prediction_type_ablation\\contact_shape_only.png",
+      "bytes": 4498169
+    },
+    {
+      "path": "figures\\prediction_type_ablation\\sampling_curves.png",
+      "bytes": 80693
+    },
+    {
+      "path": "figures\\prediction_type_ablation\\seed_20261201_focused_comparison.png",
+      "bytes": 396390
+    },
+    {
+      "path": "figures\\prediction_type_ablation\\training_losses_separate.png",
+      "bytes": 115667
+    },
+    {
+      "path": "reports\\PREDICTION_TYPE_ABLATION_REPORT.md",
+      "bytes": 8470
+    },
+    {
+      "path": "reports\\PREDICTION_TYPE_TEST_REPORT.md",
+      "bytes": 1702
+    },
+    {
+      "path": "README.md",
+      "bytes": 5337
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 169
+    },
+    {
+      "path": "configs\\prediction_type_ablation.json",
+      "bytes": 493
+    },
+    {
+      "path": "manifests\\prediction_type_diagnostic_seeds.json",
+      "bytes": 283
+    },
+    {
+      "path": "configs\\prediction_type_E.json",
+      "bytes": 3589
+    },
+    {
+      "path": "configs\\prediction_type_V.json",
+      "bytes": 3609
+    },
+    {
+      "path": "scripts\\prediction_type_ablation.py",
+      "bytes": 52321
+    },
+    {
+      "path": "scripts\\plot_focused_prediction.py",
+      "bytes": 2696
+    }
+  ]
+}

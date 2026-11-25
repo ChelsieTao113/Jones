@@ -1,0 +1,63 @@
+{
+  "task_id": "train_000252",
+  "input_sha256": "829ee01518c3e3f04f81a7ec677707f58836338b49c7b7d1b47948b2b9ad69ca",
+  "source_sha256": {
+    "physics_loss_ablation\\configs\\prediction_type_ablation.json": "f060c82b64f29ecd8bc526143533f59780fb0e181b959d6dba73b2a0203aadb3",
+    "physics_loss_ablation\\configs\\prediction_type_E.json": "50d4d97c20787cab348c2ba767c27aca91a1fb292277bd23b04770466973683e",
+    "physics_loss_ablation\\configs\\prediction_type_V.json": "d69c824a1d499154a1e4c44aca38d33e04b3b4a20c0a886779c984fb3c8e2cba",
+    "physics_loss_ablation\\manifests\\prediction_type_diagnostic_seeds.json": "8d313d19b31d0d7b493b88d63864f1afb057699b96a8978440085115b9129940",
+    "Diffusion_prep\\configs\\prep_v1.json": "4b51cdcec0eae0250dc219d812c776116604fd54e36558877f86590c6ce2f47a",
+    "physics_loss_ablation\\manifests\\single.json": "e596e5f207597f68bf53767bd19f3ec388af78f6cb2faface13fa170e1328c1f",
+    "Diffusion_prep\\src\\model.py": "eebb626ba2d384269c73081e411436d80fdcd475cdde3f9fc12b17b613e0abd2",
+    "Diffusion_prep\\src\\train.py": "01c3166a36777ef594243798507fdf0ed2cef60afdafb7192aefc79fb423d9ca",
+    "Diffusion_prep\\src\\conditioning.py": "21de57d8ce2a5c96ac885d580b790011fab4f6f2dcbe97998e532c095815e0db",
+    "Diffusion_prep\\src\\representation.py": "e10161c50f0c45c22aae786f24b1ead86bf0c49de78f864d7804009ac52044e3",
+    "Diffusion_prep\\src\\physics.py": "1f92c9db82323d58160648fc0e50b869c199f3767abea2bb4f695180437c42d4",
+    "physics_loss_ablation\\scripts\\prediction_type_ablation.py": "a880703f9dcecb891d6934af185a127a40435cdac942e0ca2542f36b55d9ba70",
+    "physics_loss_ablation\\scripts\\plot_focused_prediction.py": "93f3fd2cd382ece2267ae1115266f3224e93d4e60df0c11e4cd16a534393efdc"
+  },
+  "python": "C:\\Users\\david\\anaconda3\\envs\\metasurface\\python.exe",
+  "torch": "2.14.1+cu126",
+  "diffusers": "0.43.0",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "effective_batch": 4
+  },
+  "model": {
+    "sample_size": 128,
+    "in_channels": 6,
+    "out_channels": 6,
+    "block_out_channels": [
+      32,
+      64,
+      128
+    ],
+    "layers_per_block": 1,
+    "norm_num_groups": 8,
+    "cross_attention_dim": 128,
+    "down_block_types": [
+      "DownBlock2D",
+      "DownBlock2D",
+      "CrossAttnDownBlock2D"
+    ],
+    "up_block_types": [
+      "CrossAttnUpBlock2D",
+      "UpBlock2D",
+      "UpBlock2D"
+    ],
+    "only_cross_attention": [
+      false,
+      false,
+      true
+    ],
+    "mid_block_only_cross_attention": true
+  },
+  "smoke_seconds_per_update": {
+    "E": 0.5523500000010244,
+    "V": 0.5179999999993015
+  }
+}

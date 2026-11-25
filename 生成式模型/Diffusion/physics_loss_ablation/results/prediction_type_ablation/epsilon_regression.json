@@ -1,0 +1,29 @@
+{
+  "old_loss": 1.1255698502063751,
+  "new_loss": 1.1255698502063751,
+  "parameter_max_abs": 0.0,
+  "old_repeat_loss": 1.1255698502063751,
+  "old_repeat_parameter_max_abs": 0.0,
+  "old_optimizer_entries": 255,
+  "new_optimizer_entries": 255,
+  "inputs_match": true,
+  "micro_inputs": [
+    [
+      250,
+      "840890b0b009588be344e9953d22b1a8c044f3dda36d83664fbdb0aeff074bce"
+    ],
+    [
+      918,
+      "606197f0a9d1fa1caa5cf796f32ab308093dde6154ecef16f1ce437e272f2224"
+    ],
+    [
+      584,
+      "79f0c32b8cd9b7e5287faa6ce98b5c46e8e7989ec2fbfcd1abe05a86a42dfd09"
+    ],
+    [
+      99,
+      "21d439ccf89983184eaa9d126b064c6f86bdb79c5fae44aa7583cc91e5e725fc"
+    ]
+  ],
+  "deterministic_probe_only": true
+}

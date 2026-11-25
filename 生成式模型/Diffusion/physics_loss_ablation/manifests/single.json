@@ -1,0 +1,51 @@
+[
+  {
+    "task_id": "train_000252",
+    "path": "runs\\analyzer_formal_train_part4\\solutions\\train_000252.npz",
+    "sha256": "829ee01518c3e3f04f81a7ec677707f58836338b49c7b7d1b47948b2b9ad69ca",
+    "polarization_bucket": "canonical",
+    "source_families": [
+      "MNIST",
+      "procedural_geometry_v1",
+      "procedural_geometry_v1"
+    ],
+    "per_channel": [
+      {
+        "e_abs": 0.03350652921246562,
+        "e_shape": 0.005771380713045353,
+        "pcc": 0.9970366598900302,
+        "psnr": 24.82069753238263,
+        "ssim": 0.9656785559906822,
+        "eta_roi": 0.2521492117108994,
+        "eta_support": 0.2478115153605337,
+        "black_leakage": 0.01720289475003007,
+        "outside_power": 0.240206386880003,
+        "eta_relative_error": 0.15950262546539307
+      },
+      {
+        "e_abs": 0.04298127515193959,
+        "e_shape": 0.004120321344781968,
+        "pcc": 0.9979086227110419,
+        "psnr": 25.153019415742808,
+        "ssim": 0.9534001091662673,
+        "eta_roi": 0.24372808545595692,
+        "eta_support": 0.240426623509828,
+        "black_leakage": 0.01354567710140032,
+        "outside_power": 0.26127472240497795,
+        "eta_relative_error": 0.18757307529449463
+      },
+      {
+        "e_abs": 0.03201410857281102,
+        "e_shape": 0.013988745643499723,
+        "pcc": 0.9918635166183618,
+        "psnr": 30.446621280214067,
+        "ssim": 0.9699960901954962,
+        "eta_roi": 0.25812918242770433,
+        "eta_support": 0.25594395479577936,
+        "black_leakage": 0.008465635738559076,
+        "outside_power": 0.23686797548281885,
+        "eta_relative_error": 0.13956943154335022
+      }
+    ]
+  }
+]
